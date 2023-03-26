@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+             background-color: rgb(153, 138, 51);
+             width: 50%;
+             font-size: 30px;
+        }
+        .Btn{
+         background-attachment: fixed;
+         font-size: 25px;
+         margin-left: 20px;
+         font-family: 'Courier New', Courier, monospace;
+        }
+     </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="/circle"> Circle calculator</a></li>
+                <li><a href="/triangle"> Triange calculator</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Triangle Calculator</h1>
+        <form action="/triangle", method="post", class="Btn">
+            <div>
+                <label for="height">Height</label>
+                <input type="text", name="height", id="height">
+                <label for="width">Width</label>
+                <input type="text", id="width", name="width">
+            </div>
+            <div>
+                <button type="submit" class="Btn"> Calculate</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
